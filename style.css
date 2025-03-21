@@ -1,0 +1,78 @@
+:root {
+    --bg-color: #f2e9e4;
+    --text-color: #222;
+    --primary-color: #6a2c70;
+    --secondary-bg: #c06c84;
+    --link-color: #4a4e69;
+    --button-bg: #9a8c98;
+    --button-hover: #6a2c70;
+}
+
+/* Dark Theme */
+[data-theme="dark"] {
+    --bg-color: #1e1e2f;
+    --text-color: #e0d7df;
+    --primary-color: #dab6d4;
+    --secondary-bg: #723c70;
+    --link-color: #b8a1c9;
+    --button-bg: #6a4c93;
+    --button-hover: #4a2f66;
+    transition: background-color 0.3s ease;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+h1 {
+    color: var(--primary-color);
+    text-align: center;
+}
+
+li {
+    background-color: var(--secondary-bg);
+    color: var(--text-color);
+    display: inline-block;
+    font-size: 14px;
+    padding: 20px;
+    color: white;
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
+    background-color: var(--button-bg);
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+a:visited {
+    color: var(--primary-color);
+}
+
+button {
+    background-color: var(--button-bg);
+    color: #fff;
+    border: none;
+    padding: 20px;
+    font-weight: bold;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: var(--button-hover);
+}
+
+.bodydiv {
+    background-color: var(--secondary-bg);
+    padding: 35px;
+    border-radius: 12px;
+    display: inline-block;
+}
