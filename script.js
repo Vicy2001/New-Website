@@ -16,3 +16,7 @@ toggleBtn.addEventListener('click', () => {
     const nextTheme = current === 'dark' ? 'light' : 'dark';
     setTheme(nextTheme);
 });
+
+function toggleMenu() {
+    document.getElementById("navMenu").classList.toggle("active");
+}
