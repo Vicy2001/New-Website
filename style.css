@@ -188,6 +188,11 @@ button:hover {
   }
 
   input[type="submit"]:hover {
+    color: #fff;
     background-color: var(--button-hover);
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+
+  input[type="submit"]:visited {
+    color: var(--primary-color)
   }
