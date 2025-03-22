@@ -20,3 +20,8 @@ toggleBtn.addEventListener('click', () => {
 function toggleMenu() {
     document.getElementById("navMenu").classList.toggle("active");
 }
+
+const mailText = document.getElementById("mailText");
+  mailText.addEventListener("focus", () => {
+    mailText.style.height = "200px";
+  });
